@@ -11,7 +11,7 @@ spec:
     targetRevision: HEAD
     path: dev
   destination: 
-    server: https://kubernetes.default.svc
+    server: https://141.147.51.215:6443
     namespace: myargoapp
 
   syncPolicy:
