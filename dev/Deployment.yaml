@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: myargoapp
-  replicas: 2
+  replicas: 1
   template:
     metadata:
       labels:
